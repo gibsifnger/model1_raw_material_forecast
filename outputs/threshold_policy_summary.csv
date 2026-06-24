@@ -1,0 +1,3 @@
+﻿policy,threshold,buy_accelerate_count,hold_wait_count,valuable_action_tp,unnecessary_action_fp,missed_opportunity_fn,correct_wait_tn,precision,recall,fpr,signals_per_year,total_cost,cost_per_month
+single_0.60,0.6,11,11,8,3,4,7,0.727,0.667,0.3,6.0,31.5,1.432
+single_0.50,0.5,17,5,11,6,1,4,0.647,0.917,0.6,9.273,30.0,1.364

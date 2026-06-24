@@ -1,0 +1,4 @@
+﻿policy,fp_count,fn_count,tp_count,tn_count,review_cost,fp_extra_cost,fn_cost,total_review_cost,total_fp_extra_cost,total_fn_cost,total_cost,business_interpretation
+single_0.60,3,4,8,7,1.0,1.5,4.0,11.0,4.5,16.0,31.5,"FP: 불필요한 조기 구매 검토, 재고/자금 부담 가능성 | FN: 가격 상승을 놓친 경우, 구매단가 상승/협상력 약화 가능성"
+single_0.50,6,1,11,4,1.0,1.5,4.0,17.0,9.0,4.0,30.0,"FP: 불필요한 조기 구매 검토, 재고/자금 부담 가능성 | FN: 가격 상승을 놓친 경우, 구매단가 상승/협상력 약화 가능성"
+regime_0.55_0.60,4,4,8,6,1.0,1.5,4.0,12.0,6.0,16.0,34.0,"FP: 불필요한 조기 구매 검토, 재고/자금 부담 가능성 | FN: 가격 상승을 놓친 경우, 구매단가 상승/협상력 약화 가능성"

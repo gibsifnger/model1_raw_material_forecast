@@ -1,0 +1,2 @@
+﻿Date,material,latest_price,proba,single_threshold,single_signal,regime,regime_threshold,regime_signal,final_signal,decision_summary,recommended_meeting_use
+2026-02-01,cheese,1.4684,0.5998369154951837,0.5,BUY/ACCELERATE,1,0.55,BUY/ACCELERATE,BUY/ACCELERATE,BUY 검토: 향후 3개월 내 +3% 이상 상승 가능성이 threshold를 초과하여 사전 구매 검토 필요,구매회의에서 계약 타이밍 또는 사전 물량 확보 여부 검토

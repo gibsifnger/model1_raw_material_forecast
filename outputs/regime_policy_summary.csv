@@ -1,0 +1,2 @@
+﻿policy,threshold_or_rule,buy_accelerate_count,hold_wait_count,valuable_action_tp,unnecessary_action_fp,missed_opportunity_fn,correct_wait_tn,precision,recall,fpr,signals_per_year,total_cost,cost_per_month,reg1_signals,reg2_signals,reg1_precision,reg2_precision,reg1_fpr,reg2_fpr
+regime_0.55_0.60,"reg1=0.55, reg2=0.60",12,10,8,4,4,6,0.667,0.667,0.4,6.545,34.0,1.545,6.0,6.0,0.833,0.5,0.25,0.5

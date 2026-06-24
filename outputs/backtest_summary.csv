@@ -1,0 +1,16 @@
+﻿metric,value,interpretation
+train_size,175,모델 학습에 사용한 과거 월별 구매판단 행 수
+policy_search_size,22,threshold 정책 탐색에 사용한 holdout 행 수
+final_eval_size,22,정책 선택 이후 최종 검증에 사용한 최근 행 수
+label_mode,max_3m,at least one +3% rise within next 3m
+threshold_up,0.03,가격 상승 이벤트로 보는 기준 상승률
+base_probability_threshold,0.6,사전에 둔 기본 구매 검토 확률 기준
+final_auc,0.6916666666666667,최종 검증 구간에서 확률 순위 품질
+final_brier_score,0.22656533534382445,최종 검증 구간에서 확률 보정 오차
+final_log_loss,0.6457962465822277,최종 검증 구간에서 확률 예측 손실
+selected_single_policy,single_0.60,search holdout에서 선택한 단일 threshold 정책
+selected_regime_policy,regime_0.55_0.60,search holdout에서 선택한 regime별 threshold 정책
+selected_policy_total_cost,30.0,최종 선택 정책의 FP/FN/검토 비용 합산
+selected_policy_precision,0.647,선택 정책 신호 중 실제 상승으로 이어진 비율
+selected_policy_recall,0.917,실제 상승 이벤트 중 선택 정책이 포착한 비율
+selected_policy_signals_per_year,9.273,선택 정책이 만드는 연간 구매 검토 신호 수
